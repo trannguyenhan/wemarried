@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thiệp Cưới - Trần Ngọc Anh & Nguyễn Quang Huy</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Dancing+Script:wght@400;600;700&family=Noto+Serif+TC:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Envelope/Card Cover -->
+    <div id="envelope" class="envelope">
+        <div class="envelope-flap"></div>
+        <div class="envelope-body">
+            <div class="envelope-content">
+                <h1 class="envelope-title">Thiệp Mời</h1>
+                <div class="envelope-names">
+                    <p class="name-bride">Trần Ngọc Anh</p>
+                    <p class="name-connector">&</p>
+                    <p class="name-groom">Nguyễn Quang Huy</p>
+                </div>
+                <p class="envelope-subtitle">Nhấn để mở thiệp</p>
+                <div class="click-hint">👆</div>
+            </div>
+        </div>
+        <!-- Flower Effects Container -->
+        <div id="flowerEffects" class="flower-effects"></div>
+    </div>
+
+    <!-- Main Content (Hidden initially) -->
+    <div id="main-content" class="main-content hidden">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-background"></div>
+            <div class="hero-content">
+                <div class="hero-text-top">
+                    <h1 class="couple-names">
+                        <span class="name-line">Trần Ngọc Anh</span>
+                        <span class="name-connector">❤</span>
+                        <span class="name-line">Nguyễn Quang Huy</span>
+                    </h1>
+                    <p class="getting-married">We're Getting Married!</p>
+                    <p class="wedding-date-large">29.11.2025</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Countdown Timer Section -->
+        <section class="countdown-section">
+            <div class="container">
+                <div class="countdown-grid" id="countdown">
+                    <div class="countdown-box">
+                        <div class="countdown-time" id="days">00</div>
+                        <span class="countdown-label">Ngày</span>
+                    </div>
+                    <div class="countdown-box">
+                        <div class="countdown-time" id="hours">00</div>
+                        <span class="countdown-label">Giờ</span>
+                    </div>
+                    <div class="countdown-box">
+                        <div class="countdown-time" id="minutes">00</div>
+                        <span class="countdown-label">Phút</span>
+                    </div>
+                    <div class="countdown-box">
+                        <div class="countdown-time" id="seconds">00</div>
+                        <span class="countdown-label">Giây</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Couple Section -->
+        <section class="couple-section">
+            <div class="container">
+                <div class="couple-area">
+                    <div class="couple-item bride-item">
+                        <div class="couple-img">
+                            <img src="images/DSC07940.jpg" alt="Trần Ngọc Anh" class="couple-portrait">
+                        </div>
+                        <h3 class="couple-name">Trần Ngọc Anh</h3>
+                        <p class="couple-divider">—</p>
+                    </div>
+                    <div class="couple-middle">
+                        <img src="images/DSC07940.jpg" alt="Cô dâu và Chú rể" class="couple-together clickable-image" data-src="images/DSC07940.jpg">
+                        <div class="couple-frame"></div>
+                    </div>
+                    <div class="couple-item groom-item">
+                        <div class="couple-img">
+                            <img src="images/DSC07940.jpg" alt="Nguyễn Quang Huy" class="couple-portrait">
+                        </div>
+                        <h3 class="couple-name">Nguyễn Quang Huy</h3>
+                        <p class="couple-divider">—</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Love Quote Section -->
+        <section class="love-quote-section">
+            <div class="container">
+                <p class="love-quote">One Love - One Future</p>
+            </div>
+        </section>
+
+        <!-- Invitation Text -->
+        <section class="invitation-section">
+            <div class="container">
+                <div class="invitation-card">
+                    <p class="invitation-text">
+                        Trân trọng kính mời quý vị đến dự lễ thành hôn của chúng tôi
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Family Information -->
+        <section class="family-section">
+            <div class="container">
+                <div class="family-card">
+                    <h2 class="family-title">Nhà Trai</h2>
+                    <div class="family-content">
+                        <p class="family-member">Bố: <strong>Nguyễn Văn Bẩy</strong></p>
+                        <p class="family-member">Mẹ: <strong>Nguyễn Thị Hòa</strong></p>
+                        <p class="family-address">📍 Tổ dân phố Đồng Giao, Phường Phượng Sơn, tỉnh Bắc Ninh</p>
+                    </div>
+                </div>
+
+                <div class="family-card">
+                    <h2 class="family-title">Nhà Gái</h2>
+                    <div class="family-content">
+                        <p class="family-member">Bố: <strong>Trần Văn Thiện</strong></p>
+                        <p class="family-member">Mẹ: <strong>Hoàng Thị Niên</strong></p>
+                        <p class="family-address">📍 Thôn Nguyệt Lâm 3, xã Hồng Vũ, tỉnh Hưng Yên</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Photo Gallery Section -->
+        <section class="gallery-section">
+            <div class="container">
+                <div class="gallery-header">
+                    <h2 class="section-title">Album Hình Cưới</h2>
+                    <button class="close-album-btn hidden" id="closeAlbumBtn">✕ Đóng Album</button>
+                </div>
+                <div class="album-cover" id="albumCover">
+                    <div class="album-preview">
+                        <div class="album-stack">
+                            <img src="images/DSC07852.jpg" alt="Album preview 1" class="album-preview-img stack-img img-1">
+                            <img src="images/DSC07867.jpg" alt="Album preview 2" class="album-preview-img stack-img img-2">
+                            <img src="images/DSC08121.jpg" alt="Album preview 3" class="album-preview-img stack-img img-3">
+                            <img src="images/DSC08132.jpg" alt="Album preview 4" class="album-preview-img stack-img img-4">
+                        </div>
+                        <div class="album-overlay">
+                            <div class="album-icon">📷</div>
+                            <p class="album-text">Nhấn để xem album</p>
+                            <p class="album-count">15 ảnh</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-grid hidden" id="galleryGrid">
+                    <div class="gallery-item">
+                        <img src="images/DSC07852.jpg" alt="Khoảnh khắc đẹp 1" class="gallery-img clickable-image" data-src="images/DSC07852.jpg" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/DSC07867.jpg" alt="Khoảnh khắc đẹp 2" class="gallery-img clickable-image" data-src="images/DSC07867.jpg" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/DSC08121.jpg" alt="Khoảnh khắc đẹp 3" class="gallery-img clickable-image" data-src="images/DSC08121.jpg" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/DSC08132.jpg" alt="Khoảnh khắc đẹp 4" class="gallery-img clickable-image" data-src="images/DSC08132.jpg" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/DSC08179.jpg" alt="Khoảnh khắc đẹp 5" class="gallery-img clickable-image" data-src="images/DSC08179.jpg" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/DSC08212.jpg" alt="Khoảnh khắc đẹp 6" class="gallery-img clickable-image" data-src="images/DSC08212.jpg" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/DSC08346.jpg" alt="Khoảnh khắc đẹp 7" class="gallery-img clickable-image" data-src="images/DSC08346.jpg" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/DSC08400.jpg" alt="Khoảnh khắc đẹp 8" class="gallery-img clickable-image" data-src="images/DSC08400.jpg" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/DSC08422.jpg" alt="Khoảnh khắc đẹp 9" class="gallery-img clickable-image" data-src="images/DSC08422.jpg" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/DSC08529.jpg" alt="Khoảnh khắc đẹp 10" class="gallery-img clickable-image" data-src="images/DSC08529.jpg" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/DSC08608.jpg" alt="Khoảnh khắc đẹp 11" class="gallery-img clickable-image" data-src="images/DSC08608.jpg" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/DSC08837.jpg" alt="Khoảnh khắc đẹp 12" class="gallery-img clickable-image" data-src="images/DSC08837.jpg" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/DSC09007.jpg" alt="Khoảnh khắc đẹp 13" class="gallery-img clickable-image" data-src="images/DSC09007.jpg" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/DSC09133.jpg" alt="Khoảnh khắc đẹp 14" class="gallery-img clickable-image" data-src="images/DSC09133.jpg" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/DSC09208.jpg" alt="Khoảnh khắc đẹp 15" class="gallery-img clickable-image" data-src="images/DSC09208.jpg" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p class="footer-text">Cảm ơn quý vị đã đến dự lễ thành hôn của chúng tôi</p>
+            <p class="footer-heart">💕</p>
+        </footer>
+    </div>
+
+    <!-- Image Modal/Popup -->
+    <div id="imageModal" class="image-modal">
+        <span class="modal-close">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div class="modal-caption"></div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
