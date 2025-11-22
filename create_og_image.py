@@ -119,7 +119,7 @@ def create_og_image():
                      text1, fill=(255, 255, 255), font=font_large)
             # Text 2 - &
             draw.text(((og_width - text_width2) // 2, y_start + 70), 
-                     text2, fill=(255, 107, 157), font=font_medium)  # Pink color
+                     text2, fill=(255, 179, 209), font=font_medium)  # Pastel pink color
             # Text 3 - Nguyễn Quang Huy
             draw.text(((og_width - text_width3) // 2, y_start + 110), 
                      text3, fill=(255, 255, 255), font=font_large)
