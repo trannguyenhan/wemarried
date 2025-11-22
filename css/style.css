@@ -34,7 +34,7 @@ body {
     position: relative;
     width: 100%;
     height: 100%;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #ff6b9d 0%, #f5576c 100%);
     border-radius: 20px;
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
     display: flex;
@@ -67,7 +67,7 @@ body {
     left: 0;
     width: 100%;
     height: 50%;
-    background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+    background: linear-gradient(135deg, #f5576c 0%, #ff6b9d 100%);
     border-radius: 20px 20px 0 0;
     transform-origin: top;
     transition: transform 1s ease-in-out;
@@ -333,7 +333,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+    background: linear-gradient(135deg, #ff6b9d 0%, #f5576c 50%, #ff8fab 100%);
     opacity: 0.05;
     z-index: 0;
 }
@@ -382,7 +382,7 @@ body {
     font-family: 'Playfair Display', serif;
     font-size: 3.5rem;
     font-weight: 700;
-    color: #667eea;
+    color: #ff6b9d;
     margin-bottom: 20px;
     letter-spacing: 2px;
     line-height: 1.6;
@@ -398,7 +398,7 @@ body {
 
 .name-connector {
     font-size: 2.5rem;
-    color: #e91e63;
+    color: #ff6b9d;
     font-weight: 400;
     margin: 5px 0;
     animation: pulse 2s infinite;
@@ -407,7 +407,7 @@ body {
 .getting-married {
     font-family: 'Dancing Script', cursive;
     font-size: 2rem;
-    color: #764ba2;
+    color: #f5576c;
     margin: 20px 0;
     font-weight: 600;
     letter-spacing: 3px;
@@ -419,7 +419,7 @@ body {
     font-family: 'Playfair Display', serif;
     font-size: 3rem;
     font-weight: 600;
-    color: #667eea;
+    color: #ff6b9d;
     margin-top: 30px;
     letter-spacing: 4px;
 }
@@ -486,7 +486,7 @@ body {
     font-family: 'Dancing Script', cursive;
     font-size: 3.2rem;
     font-weight: 600;
-    color: #667eea;
+    color: #ff6b9d;
     margin: 0;
     letter-spacing: 2px;
     text-align: right;
@@ -499,7 +499,7 @@ body {
     font-family: 'Dancing Script', cursive;
     font-size: 3.2rem;
     font-weight: 600;
-    color: #667eea;
+    color: #ff6b9d;
     margin: 0;
     letter-spacing: 2px;
     text-align: left;
@@ -510,7 +510,7 @@ body {
 
 .divider-line {
     font-size: 2rem;
-    color: #764ba2;
+    color: #f5576c;
     font-weight: 300;
     opacity: 0.4;
     flex-shrink: 0;
@@ -521,7 +521,7 @@ body {
     font-family: 'Playfair Display', serif;
     font-size: 2rem;
     font-weight: 600;
-    color: #764ba2;
+    color: #f5576c;
     margin-top: 20px;
     letter-spacing: 3px;
 }
@@ -547,7 +547,7 @@ body {
 }
 
 .image-placeholder:hover {
-    border-color: #667eea;
+    border-color: #ff6b9d;
     background: linear-gradient(135deg, #f0f0f0 0%, #e8e8e8 100%);
     transform: scale(1.02);
 }
@@ -584,14 +584,14 @@ body {
 
 .countdown-box:hover {
     transform: translateY(-5px);
-    box-shadow: 0 15px 40px rgba(102, 126, 234, 0.2);
+    box-shadow: 0 15px 40px rgba(255, 107, 157, 0.2);
 }
 
 .countdown-time {
     font-family: 'Playfair Display', serif;
     font-size: 3.5rem;
     font-weight: 700;
-    color: #667eea;
+    color: #ff6b9d;
     line-height: 1;
     margin-bottom: 10px;
 }
@@ -648,13 +648,13 @@ body {
     font-family: 'Dancing Script', cursive;
     font-size: 2.5rem;
     font-weight: 600;
-    color: #667eea;
+    color: #ff6b9d;
     margin-bottom: 15px;
 }
 
 .couple-divider {
     font-size: 1.5rem;
-    color: #764ba2;
+    color: #f5576c;
     opacity: 0.6;
     margin: 0;
 }
@@ -686,7 +686,7 @@ body {
     left: -20px;
     right: -20px;
     bottom: -20px;
-    border: 3px solid rgba(102, 126, 234, 0.3);
+    border: 3px solid rgba(255, 107, 157, 0.3);
     border-radius: 25px;
     pointer-events: none;
     z-index: -1;
@@ -695,7 +695,7 @@ body {
 /* Love Quote Section */
 .love-quote-section {
     padding: 60px 20px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #ff6b9d 0%, #f5576c 100%);
     text-align: center;
 }
 
@@ -727,7 +727,7 @@ body {
     background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
     border-radius: 30px;
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
-    border: 1px solid rgba(102, 126, 234, 0.1);
+    border: 1px solid rgba(255, 107, 157, 0.1);
 }
 
 .invitation-text {
@@ -759,21 +759,21 @@ body {
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    border: 1px solid rgba(102, 126, 234, 0.1);
+    border: 1px solid rgba(255, 107, 157, 0.1);
 }
 
 .family-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 25px 50px rgba(102, 126, 234, 0.2);
+    box-shadow: 0 25px 50px rgba(255, 107, 157, 0.2);
 }
 
 .family-title {
     font-family: 'Playfair Display', serif;
     font-size: 2rem;
-    color: #667eea;
+    color: #ff6b9d;
     margin-bottom: 30px;
     padding-bottom: 15px;
-    border-bottom: 2px solid #667eea;
+    border-bottom: 2px solid #ff6b9d;
 }
 
 .family-content {
@@ -788,7 +788,7 @@ body {
 }
 
 .family-member strong {
-    color: #764ba2;
+    color: #f5576c;
     font-weight: 600;
 }
 
@@ -820,14 +820,14 @@ body {
     font-family: 'Playfair Display', serif;
     font-size: 2.5rem;
     text-align: center;
-    color: #667eea;
+    color: #ff6b9d;
     margin: 0;
     flex: 1;
 }
 
 .close-album-btn {
     padding: 12px 30px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #ff6b9d 0%, #f5576c 100%);
     color: white;
     border: none;
     border-radius: 25px;
@@ -835,13 +835,13 @@ body {
     font-weight: 600;
     cursor: pointer;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+    box-shadow: 0 5px 15px rgba(255, 107, 157, 0.3);
     font-family: 'Noto Serif TC', serif;
 }
 
 .close-album-btn:hover {
     transform: translateY(-2px);
-    box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
+    box-shadow: 0 8px 20px rgba(255, 107, 157, 0.4);
 }
 
 .close-album-btn.hidden {
@@ -870,7 +870,7 @@ body {
 
 .album-cover:hover .album-preview {
     transform: translateY(-5px) scale(1.02);
-    box-shadow: 0 20px 50px rgba(102, 126, 234, 0.3);
+    box-shadow: 0 20px 50px rgba(255, 107, 157, 0.3);
 }
 
 .album-stack {
@@ -941,7 +941,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(135deg, rgba(102, 126, 234, 0.85) 0%, rgba(118, 75, 162, 0.85) 100%);
+    background: linear-gradient(135deg, rgba(255, 107, 157, 0.85) 0%, rgba(245, 87, 108, 0.85) 100%);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1010,7 +1010,7 @@ body {
 
 .gallery-item:hover {
     transform: translateY(-8px) scale(1.02);
-    box-shadow: 0 15px 40px rgba(102, 126, 234, 0.3);
+    box-shadow: 0 15px 40px rgba(255, 107, 157, 0.3);
 }
 
 .gallery-img {
@@ -1037,7 +1037,7 @@ body {
 /* Footer */
 .footer {
     padding: 60px 20px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #ff6b9d 0%, #f5576c 100%);
     text-align: center;
     color: white;
 }
