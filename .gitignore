@@ -1,5 +1,4 @@
-# Optimized images (stored outside git repo to keep repo lightweight)
-images/
+
 
 # Python cache
 __pycache__/

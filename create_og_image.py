@@ -45,15 +45,24 @@ def create_og_image():
             y_offset = (og_height - new_height) // 2
             og_img.paste(resized_img, (x_offset, y_offset))
             
-            # Add gradient overlay for text readability
+            # Add gradient overlay for text readability (pink theme)
             overlay = Image.new('RGBA', (og_width, og_height), (0, 0, 0, 0))
             draw = ImageDraw.Draw(overlay)
             
-            # Gradient from top and bottom
+            # Dark overlay from edges for better text contrast
             for i in range(og_height):
-                alpha = int(100 * (1 - abs(i - og_height/2) / (og_height/2)))
-                if alpha > 0:
-                    draw.rectangle([(0, i), (og_width, i+1)], fill=(0, 0, 0, alpha//3))
+                # Top and bottom gradient
+                if i < og_height // 3 or i > og_height * 2 // 3:
+                    alpha = int(150 * (1 - abs(i - og_height/2) / (og_height/2)))
+                    if alpha > 0:
+                        draw.rectangle([(0, i), (og_width, i+1)], fill=(0, 0, 0, alpha))
+            
+            # Center overlay for text area
+            center_y = og_height // 2
+            text_area_height = 250
+            for i in range(center_y - text_area_height//2, center_y + text_area_height//2):
+                alpha = 120
+                draw.rectangle([(0, i), (og_width, i+1)], fill=(0, 0, 0, alpha))
             
             og_img = Image.alpha_composite(og_img.convert('RGBA'), overlay).convert('RGB')
             
@@ -104,13 +113,17 @@ def create_og_image():
             draw.text(((og_width - text_width4) // 2 + shadow_offset, y_start + 180 + shadow_offset), 
                      text4, fill=(0, 0, 0, 180), font=font_medium)
             
-            # Text
+            # Text with pink gradient effect
+            # Text 1 - Trần Ngọc Anh
             draw.text(((og_width - text_width1) // 2, y_start), 
                      text1, fill=(255, 255, 255), font=font_large)
+            # Text 2 - &
             draw.text(((og_width - text_width2) // 2, y_start + 70), 
-                     text2, fill=(255, 255, 255), font=font_medium)
+                     text2, fill=(255, 107, 157), font=font_medium)  # Pink color
+            # Text 3 - Nguyễn Quang Huy
             draw.text(((og_width - text_width3) // 2, y_start + 110), 
                      text3, fill=(255, 255, 255), font=font_large)
+            # Text 4 - Date
             draw.text(((og_width - text_width4) // 2, y_start + 180), 
                      text4, fill=(255, 255, 255), font=font_medium)
             
