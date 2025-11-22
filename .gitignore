@@ -1,0 +1,12 @@
+# Optimized images (stored outside git repo to keep repo lightweight)
+images/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# OS files
+.DS_Store
+Thumbs.db
+
